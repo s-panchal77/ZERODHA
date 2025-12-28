@@ -1,9 +1,48 @@
-import React from 'react'
+import React from "react";
 
 function Universe() {
-    return(
-        <h1>Universe</h1>
-    )
+  return (
+    <div className="container mt-5">
+      <div className="row text-center border-top pt-5">
+        <h1>The Zerodha Universe</h1>
+        <p>
+          Extend your trading and investment experience even further with our
+          partner platforms
+        </p>
+
+        <div className="col-4 p-3 mt-5">
+          <img src="media/smallcaseLogo.png" alt="Smallcase Logo" />
+          <p className="text-small text-muted">Thematic investment platform</p>
+        </div>
+        <div className="col-4 p-3 mt-5">
+          <img src="media/smallcaseLogo.png" alt="Smallcase Logo" />
+          <p className="text-small text-muted">Thematic investment platform</p>
+        </div>
+        <div className="col-4 p-3 mt-5">
+          <img src="media/smallcaseLogo.png" alt="Smallcase Logo" />
+          <p className="text-small text-muted">Thematic investment platform</p>
+        </div>
+        <div className="col-4 p-3 mt-5">
+          <img src="media/smallcaseLogo.png" alt="Smallcase Logo" />
+          <p className="text-small text-muted">Thematic investment platform</p>
+        </div>
+        <div className="col-4 p-3 mt-5">
+          <img src="media/smallcaseLogo.png" alt="Smallcase Logo" />
+          <p className="text-small text-muted">Thematic investment platform</p>
+        </div>
+        <div className="col-4 p-3 mt-5">
+          <img src="media/smallcaseLogo.png" alt="Smallcase Logo" />
+          <p className="text-small text-muted">Thematic investment platform</p>
+        </div>
+        <button
+          className="p-2 btn btn-primary fs-5 mb-5"
+          style={{ width: "20%", margin: "0 auto" }}
+        >
+          Signup Now
+        </button>
+      </div>
+    </div>
+  );
 }
 
 export default Universe;

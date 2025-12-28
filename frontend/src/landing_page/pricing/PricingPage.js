@@ -6,8 +6,8 @@ import Brokerage from './Brokerage';
 function AboutPage() {
     return(
         <>
-            <Brokerage/>
             <Hero />
+            <Brokerage/>
             <OpenAccount />
         </>
     );
