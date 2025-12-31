@@ -1,0 +1,30 @@
+----------------------------------------------------------
+Frontend Command in VS Code:
+----------------------------------------------------------
+:React App:
+npx create-react-app frontend
+cd frontend
+npm start
+
+:React-Router:
+npm i react-router-dom
+
+----------------------------------------------------------
+Backend Command in VS Code:
+----------------------------------------------------------
+cd Backend
+npm init -y
+npm i -D nodemon
+npm install express cors dotenv mongoose passport passport-local passport-local-mongoose express-session bcryptjs
+npm run dev
+npm start
+http://localhost:5000/
+
+
+----------------------------------------------------------
+MongoDB:
+---------------------------------------------------------
+sarthakpanchal12345678\_db\_user
+CIxSsta7O42ssr9F
+
+mongodb+srv://sarthakpanchal12345678_db_user:CIxSsta7O42ssr9F@zerodhaclonecluster.jlvjd2a.mongodb.net/zerodha?appName=ZerodhaCloneCluster
